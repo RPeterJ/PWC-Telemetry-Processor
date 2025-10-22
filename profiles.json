@@ -1,0 +1,106 @@
+{
+  "Yamaha VX Cruiser HO": {
+    "description": "Stock 1.8L High Output engine (2023)",
+    "engine_size": "1.8L NA",
+    "default_rider_weight": 78.0,
+    "is_supercharged": false,
+    "rpm_model": {
+      "speed_kmh": [
+        0.0,
+        8.0,
+        16.0,
+        25.0,
+        32.0,
+        40.0,
+        48.0,
+        64.0,
+        80.0,
+        96.0,
+        105.0
+      ],
+      "rpm": [
+        1200.0,
+        2500.0,
+        3500.0,
+        4000.0,
+        4500.0,
+        5000.0,
+        5500.0,
+        6200.0,
+        6800.0,
+        7200.0,
+        7400.0
+      ]
+    },
+    "fuel_model": {
+      "rpm": [
+        1300.0,
+        2500.0,
+        3500.0,
+        4500.0,
+        5500.0,
+        6500.0,
+        7500.0
+      ],
+      "lph": [
+        1.2,
+        4.5,
+        8.8,
+        12.5,
+        20.8,
+        28.2,
+        45.7
+      ]
+    }
+  },
+  "Sea-Doo GTI 170 (Example)": {
+    "description": "Example profile for a different model.",
+    "engine_size": "1.6L Supercharged",
+    "default_rider_weight": 85,
+    "is_supercharged": true,
+    "rpm_model": {
+      "speed_kmh": [
+        0,
+        8,
+        24,
+        40,
+        56,
+        72,
+        89,
+        105,
+        113
+      ],
+      "rpm": [
+        1400,
+        1600,
+        3800,
+        4800,
+        5800,
+        6500,
+        7000,
+        7600,
+        7900
+      ]
+    },
+    "fuel_model": {
+      "rpm": [
+        1400,
+        3000,
+        4500,
+        5500,
+        6500,
+        7500,
+        7900
+      ],
+      "lph": [
+        1.8,
+        8.0,
+        16,
+        27,
+        38,
+        58,
+        65
+      ]
+    }
+  }
+}
